@@ -25,6 +25,8 @@
 
 .promo__title{
 
+    max-width: 480px;
+
     margin-bottom: 40px;
 
     font-weight: 900;
@@ -32,6 +34,8 @@
     font-size: 96px;
 
     line-height: 120px;
+
+    color: black;
 
 }
 
@@ -44,14 +48,98 @@
     line-height: 48px;
 
     letter-spacing: -0.05em;
+
+    margin-bottom: 32px;
+    
 }
 
 .promo__btn-wrapper{
 
+    display: flex;
+
+    column-gap: 34px;
+
+    align-items: center;
 
 }
 
+.promo__btn-wrapper::before{
+     
+    content: "";
+
+    display: inline-block;
+
+    width: 190px;
+    
+    height: 32px;
+
+    background-image: url('./../../images/fashion-images/icons/decor-yellow.svg');
+}
+
 .promo__btn{
+   
+
+    padding: 18px 40px;
+
+
+    background-color: black;
+
+    border-radius: 10px;
+
+    
+    font-weight: 500;
+
+    font-size: 30px;
 
     line-height: 1.5;
+
+    letter-spacing: -0.05em;
+
+    color: white;
+
+}
+
+.highlight{
+
+    position: relative;
+
+    display: inline-block;
+}
+
+.highlight span{
+
+    position: relative;
+
+    
+}
+
+.highlight::before{
+
+    content: "";
+
+    display: block;
+
+    position: absolute;
+
+    top: -12px;
+
+    bottom: 0px;
+
+    bottom: 0px;
+
+    left: -20px;
+
+    right: -178px;
+
+    transform: rotate(-2deg);
+
+    background-color: white;
+}
+
+.highlight--yellow::before{
+
+    background-color: var(--yellow);
+
+    right: -100px;
+
 }
