@@ -1,0 +1,74 @@
+
+.vouchers{
+
+    padding: 0 219px;
+
+    marker-start: 100px;
+
+    margin-bottom: 100px;
+}
+
+
+.container{
+  
+}
+
+.vouchers__content{
+
+    display: flex;
+
+    column-gap: 305px;
+}
+
+.vouchers__text{
+
+    padding-top: 164px;
+
+}
+
+.vouchers__title{
+
+    max-width: 510px;
+
+    margin-bottom: 41px;
+
+    font-weight: 900;
+
+    font-size: 48px;
+
+    line-height: 150%;
+
+    letter-spacing: 0.06em;
+
+    color: black;
+
+}
+
+.vouchers__desc{
+
+    max-width: 510px;
+    
+    margin-bottom: 65px;
+
+    font-weight: 500;
+
+    font-size: 24px;
+
+    line-height: 35px;
+
+    letter-spacing: -4%;
+    
+}
+
+.vouchers__social{
+
+    display: flex;
+
+    column-gap: 17px;
+
+}
+
+.vouchers__img{
+
+
+}
