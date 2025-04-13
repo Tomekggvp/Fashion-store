@@ -1,0 +1,172 @@
+.banner{
+
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+
+    margin-bottom: 150px;
+}
+
+.banner__container{
+    
+}
+
+
+.banner__content{
+
+    display: flex;
+
+    column-gap: 50px;
+
+    width: auto;
+
+}
+.banner__text{
+
+    padding-top: 85px;
+
+    color: #000;
+
+}
+
+.banner_title{
+
+    
+    margin-bottom: 45px;
+
+    max-width: 667px;
+
+    font-weight: 900;
+
+    font-size: 111.61px;
+
+    line-height: 137.19px;
+
+    letter-spacing: 0em;
+
+}
+
+.banner__desc-1{
+
+    margin-bottom: 28px;
+
+    max-width: 670px;
+
+    font-weight: 500;
+
+    font-size: 36.04px;
+
+    line-height: 52.32px;
+
+    letter-spacing: -0.02em;
+    
+
+}
+
+.banner__desc-2 span{
+
+    
+    max-width: 430px;
+
+    font-weight: 700;
+
+    font-size: 36.04px;
+
+    line-height: 52.32px;
+
+    letter-spacing: 0.02em;
+    
+}
+
+.banner__desc-2{
+
+    margin-bottom: 40px;
+
+    max-width: 490px;
+
+    font-weight: 400;
+
+    font-size: 36.04px;
+
+    line-height: 52.32px;
+
+    letter-spacing: 0.02em;
+
+    
+}
+
+.banner__btn-wrapper{
+
+    display: flex;
+
+    column-gap: 34px;
+
+    align-items: center;
+
+}
+
+
+.banner__btn{
+   
+
+    padding: 18px 40px;
+
+
+    background-color: black;
+
+    border-radius: 10px;
+
+    
+    font-weight: 700;
+
+    font-size: 30px;
+
+    line-height: 1.5;
+
+    letter-spacing: 0.02em;
+
+    color: white;
+
+}
+
+.highlight{
+
+    position: relative;
+
+    display: inline-block;
+
+    z-index: 1;
+
+    
+}
+
+.highlight span{
+
+    position: relative;
+    
+}
+
+.highlight::before{
+
+    content: "";
+
+    display: block;
+
+    position: absolute;
+
+    top: -12px;
+
+    bottom: 0px;
+
+    bottom: 0px;
+
+    left: -20px;
+
+    right: -30px;
+
+    transform: rotate(-2deg);
+
+    background-color: white;
+    
+    z-index: -1;
+
+    
+}

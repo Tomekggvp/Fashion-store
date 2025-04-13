@@ -1,0 +1,132 @@
+.community{
+
+}
+
+.content {
+
+    padding: 100px 440px;
+
+    background-color: #E5C643;
+
+}
+
+.community__title{
+
+    margin-bottom: 32px;
+
+    font-weight: 900;
+
+    font-size: 55px;
+
+    line-height: 70px;
+
+    letter-spacing: 0.03em;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    
+}
+
+.community__desc{
+
+    margin-bottom: 60px;
+
+    font-weight: 400;
+
+    font-size: 32px;
+
+    line-height: 35px;
+
+    letter-spacing: 0.03em;
+
+    color: #FFFCF8;
+
+}
+
+
+
+.community__input {
+
+    position: relative;
+
+    width: fit-content;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+.input-wrapper {
+
+    position: relative;
+
+    width: 574px;
+
+}
+
+.input-wrapper input {
+
+    width: 100%;
+    height: 87px;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.03em;
+
+    border-radius: 10px;
+    background-color: #FFFFFF;
+
+    padding-right: 160px; /* место для кнопки справа */
+    box-sizing: border-box;
+}
+
+.community__input input{
+    
+
+
+    width: 574px;
+
+    height: 87px;
+
+    
+
+    font-weight: 400;
+
+    font-size: 24px;
+
+    line-height: 35px;
+
+    letter-spacing: 3%;
+    
+
+
+    border-radius: 10px;
+
+    background-color: #FFFFFF;
+
+    padding-left: 30px;
+}
+
+
+
+
+
+.community__btn {
+    position: absolute;
+    top: 10px; /* немного отступ от верха */
+    right: 10px; /* впритык к правому краю */
+    height: 67px;
+    padding: 0px 40px;
+    background-color: black;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
