@@ -27,7 +27,7 @@ export default function Community(){
                         
                         <div className="input-wrapper">
 
-                            <input type="email" placeholder='Add your email here'/>
+                            <input type="email" placeholder='Add your email'/>
 
                             <button className='community__btn'>
 
