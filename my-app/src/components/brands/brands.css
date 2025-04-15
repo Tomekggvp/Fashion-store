@@ -13,3 +13,33 @@
 
     mix-blend-mode: multiply;
 }
+
+/* Для планшетов и мобильных устройств */
+@media (max-width: 1024px) {
+    .brands__list {
+    
+      display: flex;
+
+      flex-wrap: wrap;
+
+      justify-content: center;
+    
+      column-gap: 60px; /* Уменьшаем промежутки между элементами */
+    }
+  }
+  
+  /* Для мобильных устройств */
+  @media (max-width: 768px) {
+
+    .brands__list {
+
+        
+      display: flex;
+
+      flex-wrap: wrap;
+
+      justify-content: center;
+      
+      column-gap: 30px; /* Еще меньше промежуток между элементами */
+    }
+  }

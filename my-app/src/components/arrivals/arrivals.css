@@ -57,3 +57,62 @@
 
     background-repeat: no-repeat;
 }
+
+
+/* Планшеты */
+@media (max-width: 1024px) {
+    .arrivals {
+      padding-top: 80px;
+      padding-bottom: 100px;
+    }
+  
+    .arrivals__header {
+      margin-bottom: 60px;
+      text-align: center;
+    }
+  
+    .arrivals__cards {
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: center;
+    }
+  
+    .title-2 {
+      font-size: 36px;
+    }
+  
+    .title-2::after {
+      width: 140px;
+      height: 26px;
+      background-size: contain;
+    }
+  }
+  
+  /* Мобильные */
+  @media (max-width: 768px) {
+    .arrivals {
+      padding-top: 60px;
+      padding-bottom: 80px;
+    }
+  
+    .arrivals__header {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  
+    .arrivals__cards {
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+    }
+  
+    .title-2 {
+      font-size: 28px;
+    }
+  
+    .title-2::after {
+      width: 100px;
+      height: 20px;
+    }
+  }
+  

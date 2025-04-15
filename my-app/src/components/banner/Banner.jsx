@@ -37,7 +37,7 @@ export default function Banner(){
                          voucher code for your next purchase
 
                          </div>
-
+                        
                          <div className="banner__desc-2">
                             
                              <span>1 June - 10 June 2021 </span>

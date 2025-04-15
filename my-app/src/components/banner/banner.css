@@ -170,3 +170,152 @@
 
     
 }
+
+@media (max-width: 1700px) {
+
+  .banner__img{
+    display: none;
+  }
+  
+  .banner {
+    margin-bottom: 100px;
+  }
+
+  .banner span{
+
+    margin: 0 5%;
+  }
+
+  .banner__text{
+      padding-top: 5%;
+  }
+
+  .banner__content {
+    flex-direction: column; /* Переводим на колонку */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 40px;
+  }
+
+  .banner_title {
+    font-size: 64px;
+    line-height: 1.2;
+    max-width: 100%;
+  }
+
+  .banner__desc-1,
+  .banner__desc-2 {
+    font-size: 28px;
+    line-height: 40px;
+    max-width: 100%;
+  }
+
+  .banner__btn-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+
+  .banner__btn {
+    font-size: 24px;
+    padding: 14px 30px;
+    margin-bottom: 5%;
+  }
+
+  .highlight::before {
+    top: -6px;
+    left: -15px;
+    right: -15px;
+  }
+
+}
+
+/* Планшеты */
+@media (max-width: 1024px) {
+  .banner {
+    margin-bottom: 100px;
+  }
+
+  .banner__text{
+      padding-top: 5%;
+  }
+
+  .banner__content {
+    flex-direction: column; /* Переводим на колонку */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 40px;
+  }
+
+  .banner_title {
+    font-size: 64px;
+    line-height: 1.2;
+    max-width: 100%;
+  }
+
+  .banner__desc-1,
+  .banner__desc-2 {
+    font-size: 28px;
+    line-height: 40px;
+    max-width: 100%;
+  }
+
+  .banner__btn-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+
+  .banner__btn {
+    font-size: 24px;
+    padding: 14px 30px;
+    margin-bottom: 5%;
+  }
+
+  .highlight::before {
+    top: -6px;
+    left: -15px;
+    right: -15px;
+  }
+}
+
+/* Мобильные */
+@media (max-width: 768px) {
+
+  .banner__text{
+    padding-top: 5%;
+}
+
+  .banner {
+    margin-bottom: 80px;
+  }
+
+  .banner__content {
+    padding: 0 20px;
+  }
+
+  .banner_title {
+    font-size: 42px;
+  }
+
+  .banner__desc-1,
+  .banner__desc-2 {
+   
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .banner__btn {
+    font-size: 18px;
+    padding: 12px 24px;
+    margin-bottom: 5%;
+  }
+
+  .highlight::before {
+    top: -4px;
+    left: -10px;
+    right: -10px;
+  }
+}
