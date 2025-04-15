@@ -3,8 +3,6 @@
 
     padding: 0 219px;
 
-    marker-start: 100px;
-
     margin-bottom: 100px;
 }
 
@@ -72,3 +70,82 @@
 
 
 }
+
+@media (max-width: 1700px) {
+
+  .vouchers {
+    padding: 0 60px;
+  }
+
+  .vouchers__content {
+      flex-direction: column;
+      row-gap: 40px;
+      text-align: center;
+      align-items: center;
+  }
+
+  .vouchers__title {
+    font-size: 38px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+    .vouchers {
+      padding: 0 60px;
+    }
+  
+    .vouchers__content {
+        flex-direction: column;
+        row-gap: 40px;
+        text-align: center;
+        align-items: center;
+    }
+  
+    .vouchers__title {
+      font-size: 38px;
+    }
+  
+    .vouchers__desc {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+  
+  /* Мобильные */
+  @media (max-width: 768px) {
+    .vouchers {
+      padding: 0 20px;
+    }
+  
+    .vouchers__content {
+      flex-direction: column;
+      row-gap: 40px;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .vouchers__text {
+      padding-top: 60px;
+    }
+  
+    .vouchers__title {
+      font-size: 30px;
+    }
+  
+    .vouchers__desc {
+      font-size: 18px;
+      line-height: 28px;
+      margin-bottom: 40px;
+    }
+  
+    .vouchers__social {
+      justify-content: center;
+    }
+  
+    .vouchers__img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+    }
+  }

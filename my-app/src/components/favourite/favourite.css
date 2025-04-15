@@ -27,5 +27,40 @@
 
 }
 
-
-
+/* Планшеты */
+@media (max-width: 1024px) {
+    .favourite {
+      margin-bottom: 120px;
+    }
+  
+    .favourite__header {
+      margin-bottom: 60px;
+      text-align: center;
+    }
+  
+    .favourite__card {
+      flex-wrap: wrap;
+      row-gap: 40px;
+      column-gap: 30px;
+      justify-content: center;
+    }
+  }
+  
+  /* Мобильные */
+  @media (max-width: 768px) {
+    .favourite {
+      margin-bottom: 80px;
+    }
+  
+    .favourite__header {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  
+    .favourite__card {
+      flex-direction: column;
+      row-gap: 30px;
+      align-items: center;
+    }
+  }
+  
