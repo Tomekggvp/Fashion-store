@@ -71,6 +71,25 @@
 
 }
 
+@media (max-width: 1700px) {
+
+  .vouchers {
+    padding: 0 60px;
+  }
+
+  .vouchers__content {
+      flex-direction: column;
+      row-gap: 40px;
+      text-align: center;
+      align-items: center;
+  }
+
+  .vouchers__title {
+    font-size: 38px;
+  }
+
+}
+
 @media (max-width: 1024px) {
     .vouchers {
       padding: 0 60px;

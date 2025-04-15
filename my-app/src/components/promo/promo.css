@@ -148,8 +148,24 @@
 
 }
 
+@media (max-width: 1650px){
+
+    .promo__content {
+        flex-direction: column; /* Переводим блоки на колонку */
+        padding-left: 40px; /* Уменьшаем отступы */
+        padding-right: 40px;
+        align-items: center;
+        text-align: center;
+    }
+}
+
 /* Планшеты */
 @media (max-width: 1024px) {
+
+    .promo{
+        margin-top: 4%;
+    }
+
     .promo__content {
         flex-direction: column; /* Переводим блоки на колонку */
         padding-left: 40px; /* Уменьшаем отступы */
@@ -195,7 +211,10 @@
 
 /* Мобильные */
 @media (max-width: 768px) {
+
+
     .promo {
+        margin-top: 4%;
         margin-bottom: 50px;
     }
 
